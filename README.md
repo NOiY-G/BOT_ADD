@@ -1,4 +1,5 @@
 Descrição do Script
+
 O script automatiza a adição de usuários a um canal do Telegram usando a API de administrador. Ele realiza os seguintes passos:
 
 Importação de Bibliotecas:
