@@ -3,14 +3,14 @@ Descrição do Script
 O script automatiza a adição de usuários a um canal do Telegram usando a API de administrador. Ele realiza os seguintes passos:
 
 Importação de Bibliotecas:
-Usa telethon para interagir com a API do Telegram.
-Usa openpyxl para manipular o arquivo Excel.
-Usa time para introduzir atrasos entre as adições de usuários.
+ * Usa telethon para interagir com a API do Telegram.
+ * Usa openpyxl para manipular o arquivo Excel.
+ * Usa time para introduzir atrasos entre as adições de usuários.
 
 Configuração Inicial:
-Define as credenciais da API (api_id e api_hash).
-Especifica o nome do canal (channel_username).
-Define o nome do arquivo Excel que contém os IDs dos usuários a serem adicionados.
+ * Define as credenciais da API (api_id e api_hash).
+ * Especifica o nome do canal (channel_username).
+ * Define o nome do arquivo Excel que contém os IDs dos usuários a serem adicionados.
 
 Função Principal (adicionar_membros_do_excel):
  * Cria uma sessão do cliente do Telegram.
