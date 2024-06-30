@@ -15,7 +15,7 @@ channel_username = 'COLOQUE O ID DO CANAL (@ DO CANAL)'
 excel_file = 'COLOQUE O CAMINHO DO ARQUIVO XLSX'   
 
 # Função para ler IDs do Excel e adicionar ao canal
-def adicionar_membros_do_excel(delay=5):
+def adicionar_membros_do_excel(delay=10):
     client = TelegramClient('session_name', api_id, api_hash)
 
     with client:
